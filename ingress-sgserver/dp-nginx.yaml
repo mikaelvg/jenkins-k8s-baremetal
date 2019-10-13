@@ -10,7 +10,8 @@ spec:
       name: nginx-ingress
   template: 
     metadata: 
-      labels: nginx-ingress
+      labels: 
+        name: nginx-ingress
     spec: 
       containers: 
         - 
